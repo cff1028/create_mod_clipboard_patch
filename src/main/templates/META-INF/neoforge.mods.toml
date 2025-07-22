@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+issueTrackerURL="https://github.com/cff1028/create_mod_clipboard_patch/issues"
+
+[[mods]]
+modId="clipboard_patch"
+version="1.0.0"
+displayName="Create Bugfix: Clipboard Patch"
+description="Fixes clipboard bugs in Create mod"
+authors="CFF1028"
+
+[[dependencies.clipboard_patch]]
+modId="neoforge"
+version="[21.1.170,)"
+
+[[dependencies.clipboard_patch]]
+modId="create"
+version="[6.0.0,)"
